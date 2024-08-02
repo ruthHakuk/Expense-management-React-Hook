@@ -1,0 +1,31 @@
+
+.Login {
+  background-color: rgb(239, 221, 241);
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  padding: 20px;
+  height: 287px;
+  width: 300px;
+
+
+.btn-primary {
+  margin-top: 12px;
+  background-color: #965cbd;
+  border-color: #965cbd;
+}
+
+a {
+  color: #a6a4b2;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  background-color: #965cbd;
+}
+h1{
+  text-align: center;
+  color: rgb(93, 48, 99);
+  margin-bottom: 12%;
+}
+}

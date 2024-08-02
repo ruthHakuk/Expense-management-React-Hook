@@ -1,0 +1,65 @@
+.ExpenseElement {
+  .float-right {
+  float: right;
+  display: flex;
+  align-items: center;
+  margin-top:4px;
+  margin-right: 4px;
+}
+  .card {
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.2s;
+    background-color: #f8f9fa;
+
+    &:hover {
+      transform: scale(1.02);
+    }
+  }
+
+  .card-header {
+    font-size: 1.5rem;
+    font-weight: bold;
+    background: linear-gradient(45deg, #007bff, #0056b3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    i {
+      margin-right: 8px;
+    }
+  }
+
+  .card-body {
+    padding: 20px;
+  }
+
+  .expense-info p,
+  .additional-info p {
+    margin: 0.5rem 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1rem;
+
+    i {
+      color: #6c757d;
+    }
+  }
+
+  .actions {
+    .btn {
+      margin-top: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+
+      i {
+        margin-right: 8px;
+      }
+    }
+  }
+
+}

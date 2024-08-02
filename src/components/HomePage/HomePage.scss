@@ -1,0 +1,23 @@
+.HomePage {
+
+    position: relative;
+  min-height: 100vh;
+  padding: 20px;
+  box-sizing: border-box;
+  overflow: hidden; 
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://sfilev2.f-static.com/image/users/154130/ftp/my_files/%D7%A7%D7%91%D7%9C%D7%95%D7%AA.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: blur(13px);
+    z-index: -1;
+  }
+}
