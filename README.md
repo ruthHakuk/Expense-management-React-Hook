@@ -42,14 +42,14 @@ The Expense Manager is a web application designed to help users keep track of th
 
 
 
-## Installation
-# 1.clone pository:
+# Installation
+## 1.clone pository:
 git clone https://github.com/yourusername/expense-manager.git
-# 2.Navigate to the project directory:
+## 2.Navigate to the project directory:
 cd post4u
-# 3.Install dependencies:
+## 3.Install dependencies:
 npm install
-# 4.run the project
+## 4.run the project
 npm start
 
 
