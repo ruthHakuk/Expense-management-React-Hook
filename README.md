@@ -8,13 +8,9 @@ A React hook-based application for managing personal expenses. The application a
 ## Table of Contents
 - [Description](#description)
 - [Features](#features)
-- [Screenshots](#screenshots)
 - [Technologies Used](#technologies-used)
+- [Screenshots](#screenshots)
 - [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
 
 ## Description
 The Expense Manager is a web application designed to help users keep track of their personal expenses. The main page displays all expenses with the option to view detailed information about each expense. Users can add new expenses, edit existing ones, and delete expenses. The application leverages Redux for state management and custom hooks for reusable logic.
@@ -27,6 +23,14 @@ The Expense Manager is a web application designed to help users keep track of th
 - **Delete Expense:** Remove expenses from the list.
 - **State Management:** Managed with Redux and custom hooks.
 
+## Technologies Used
+- React
+- Redux
+- Custom Hooks
+- HTML
+- SCSS
+- TypeScript
+- 
 ## Screenshots
 
 ![צילום מסך 2024-08-05 114745](https://github.com/user-attachments/assets/c0490df2-3656-4f69-8782-4fcd1f38c894)
@@ -36,13 +40,7 @@ The Expense Manager is a web application designed to help users keep track of th
 ![צילום מסך 2024-08-05 114943](https://github.com/user-attachments/assets/30da8929-95a7-4a0f-812e-80770ad1e0fa)
 ![צילום מסך 2024-08-05 115011](https://github.com/user-attachments/assets/edb13314-3e99-4623-85df-d856856627ec)
 
-## Technologies Used
-- React
-- Redux
-- Custom Hooks
-- HTML
-- SCSS
-- TypeScript
+
 
 ## Installation
 1.clone pository:
