@@ -1,7 +1,4 @@
-# Expense Manager
-
-![License](https://img.shields.io/badge/license-MIT-blue)
-![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
+# Expenses Management System
 
 A React hook-based application for managing personal expenses. The application allows users to add, edit, delete, and view detailed information about their expenses. The state management is handled using Redux and custom hooks.
 
