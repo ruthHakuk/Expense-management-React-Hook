@@ -40,7 +40,6 @@ const ExpenseElement: FC<ExpenseElementProps> = ({ expenseDetails, deleteExpense
                 <p><i className="fas fa-credit-card"></i> <strong>Payment Method:</strong> {expenseDetails.paymentMethod}</p>
                 <p><i className="fas fa-store"></i> <strong>Currency:</strong> {expenseDetails.currency}</p>
                 <p><i className="fas fa-map-marker-alt"></i> <strong>Location:</strong> {expenseDetails.location}</p>
-                {/* <p><i className="fas fa-info-circle"></i> <strong>Status:</strong> {expenseDetails.status}</p> */}
               </div>
             </div>
             <div className="col-md-6">

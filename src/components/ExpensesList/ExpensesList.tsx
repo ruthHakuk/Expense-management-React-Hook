@@ -122,7 +122,7 @@ const ExpensesList = () => {
                     <span>Date:</span> <span>{new Date(expense.date).toDateString()}</span>
                   </div>
                 </div>
-                <button onClick={() => goToDetails(expense.expenseId)} className="btn btn-primary details-btn">לחץ לפרטים</button>
+                <button onClick={() => goToDetails(expense.expenseId)} className="btn btn-primary details-btn">Click for details</button>
               </div>
             </div>
           </div>

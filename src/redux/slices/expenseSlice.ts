@@ -13,7 +13,6 @@ const initialExpenses = [
     new Date("2024-05-20"),
     "ILS",
     "Supermarket",
-//    "Completed"
   ),
   new Expense(
     "Rent payment",
@@ -25,19 +24,17 @@ const initialExpenses = [
     new Date("2024-03-01"),
     "ILS",
     "Landlord",
-//    "Completed"
   ),
   new Expense(
     "Bus pass",
     75.00,
-    "Transportation",
+    "Food",
     "Debit Card",
     "Monthly bus pass",
     'https://scontent.ftlv20-1.fna.fbcdn.net/v/t1.6435-9/87147748_2252816548355752_4703035841054769152_n.jpg?stp=dst-jpg_p526x296&_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_ohc=muDuNu49PtAQ7kNvgHvRxll&_nc_ht=scontent.ftlv20-1.fna&oh=00_AYBdMG7NLbna2RovkMZw1e2ApOsVTGH6durou0rn96lMHg&oe=669FF006',
     new Date("2024-02-15"),
     "ILS",
     "City Transport",
-//    "Completed"
   ),
   new Expense(
     "Electricity bill",
@@ -49,19 +46,17 @@ const initialExpenses = [
     new Date("2024-01-10"),
     "ILS",
     "Electric Company",
-//    "Completed"
   ),
   new Expense(
     "Gym membership",
     100.00,
-    "Healthcare",
+    "Food",
     "Credit Card",
     "Monthly gym membership fee",
     'https://scontent.ftlv20-1.fna.fbcdn.net/v/t1.6435-9/87147748_2252816548355752_4703035841054769152_n.jpg?stp=dst-jpg_p526x296&_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_ohc=muDuNu49PtAQ7kNvgHvRxll&_nc_ht=scontent.ftlv20-1.fna&oh=00_AYBdMG7NLbna2RovkMZw1e2ApOsVTGH6durou0rn96lMHg&oe=669FF006',
     new Date("2024-06-05"),
     "ILS",
     "Fitness Center",
-//    "Completed"
   ),
   new Expense(
     "Car insurance",
@@ -73,7 +68,6 @@ const initialExpenses = [
     new Date("2024-04-03"),
     "ILS",
     "Insurance Company",
-//    "Completed"
   ),
   new Expense(
     "Dinner out",
@@ -85,7 +79,6 @@ const initialExpenses = [
     new Date("2024-06-18"),
     "ILS",
     "Restaurant",
-//    "Completed"
   ),
   new Expense(
     "Pet food",
@@ -97,7 +90,6 @@ const initialExpenses = [
     new Date("2024-06-08"),
     "ILS",
     "Pet Store",
-//    "Completed"
   ),
   new Expense(
     "Online course",
@@ -109,7 +101,6 @@ const initialExpenses = [
     new Date("2024-05-12"),
     "ILS",
     "Online Learning Platform",
-//    "Completed"
   ),
   new Expense(
     "Gift for friend",
@@ -121,7 +112,6 @@ const initialExpenses = [
     new Date("2024-01-22"),
     "ILS",
     "Gift Shop",
-//    "Completed"
   ),
   new Expense(
     "Movie tickets",
@@ -133,7 +123,6 @@ const initialExpenses = [
     new Date("2024-04-14"),
     "ILS",
     "Cinema",
-//    "Completed"
   ),
   new Expense(
     "Doctor visit",
@@ -145,7 +134,6 @@ const initialExpenses = [
     new Date("2024-06-07"),
     "ILS",
     "Medical Clinic",
-//    "Completed"
   ),
   new Expense(
     "Birthday present",
@@ -157,7 +145,6 @@ const initialExpenses = [
     new Date("2024-06-25"),
     "ILS",
     "Gift Shop",
-//    "Completed"
   ),
 ]
 
@@ -171,7 +158,6 @@ const notFoundExpense = new Expense(
   new Date('2023-05-15'),
   'notFound',
   'notFound',
- // 'notFound',
 )
 
 const initalMessage: Message = new Message("Success", "not nothing")
@@ -198,8 +184,6 @@ const expenseSlice = createSlice({
     addExpense: (state, action: PayloadAction<Expense>) => {
       const expense: Expense = action.payload
       state.expenses = [...state.expenses, expense]
-      // state.message.text = 'meesge got'
-      // state.message.type = 'Success'
       state.isLoaded = true
 
     },
@@ -217,12 +201,7 @@ const expenseSlice = createSlice({
       const index = state.expenses.findIndex(expense => expense.expenseId === action.payload.expenseId)
       if (index !== -1) {
         state.expenses[index] = { ...state.expenses[index], ...action.payload }
-        // state.message.text = 'message updated'
-        // state.message.type = 'Success'
         state.isLoaded = true
-      } else {
-        // state.message.text = 'Expense not found'
-        // state.message.type = 'Danger'
       }
     },
 
