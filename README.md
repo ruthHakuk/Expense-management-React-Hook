@@ -33,7 +33,7 @@ The Expense Manager is a web application designed to help users keep track of th
 ![צילום מסך 2024-08-05 114745](https://github.com/user-attachments/assets/c0490df2-3656-4f69-8782-4fcd1f38c894)
 ![צילום מסך 2024-08-05 114803](https://github.com/user-attachments/assets/22c55dfa-0ae4-4db0-919f-8e545db5557d)
 ![צילום מסך 2024-08-05 114849](https://github.com/user-attachments/assets/27411d13-b09d-495e-b8c5-13225395c552)
-![צילום מסך 2024-08-05 114918](https://github.com/user-attachments/assets/8e01366a-2741-4e56-afae-657b93030f43)
+![צילום מסך 2024-08-20 222054](https://github.com/user-attachments/assets/c4cb09c6-fdb0-4e8c-92e5-38738ce560f8)
 ![צילום מסך 2024-08-05 114943](https://github.com/user-attachments/assets/30da8929-95a7-4a0f-812e-80770ad1e0fa)
 ![צילום מסך 2024-08-05 115011](https://github.com/user-attachments/assets/edb13314-3e99-4623-85df-d856856627ec)
 
